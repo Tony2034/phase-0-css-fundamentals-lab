@@ -3,5 +3,28 @@ body {
   height: 100%;
   margin: 0;
 }
-h1 {color: red;
+header {
+  text-align: center;
+}
+figure {text-align: center;
+}
+nav a {text-align: center;
+padding-left: 10px; 
+padding-right: 10px;
+background-color: aquamarine;
+}
+figcaption {
+  font-size: smaller;
+  text-align: center;
+}
+#featured-property p {
+width: 800px;
+text-align: center;
+margin: 0 25% 0 25%;
+line-height: 20px;
+}
+#details div {float: left;
+width: 25%;
+background-color: red;
+text-align: center;
 }
